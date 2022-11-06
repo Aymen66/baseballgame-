@@ -1,0 +1,160 @@
+@font-face {
+    font-family:cursedTimer ;
+    src: url("CursedTimerULiL.woff");
+}
+body{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    background-image: url("baseball.webp");
+    background-size: cover;
+}
+.container{
+    background-color: #1B244A;
+    max-width: 40%;
+    min-height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    font-size: xx-large;
+    border-radius: 15px;
+    font-family: cursedTimer;
+
+
+
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+.newGame{
+    margin-top: 60px;
+    
+}
+
+#newGame{
+    padding: 7px;
+    border: 2px solid #1B244A;
+    border-radius: 5px;
+    background-color: lightgray;
+    font-weight: bolder;
+
+    border: 3px solid  #F94F6D;
+
+}
+h3{
+    margin: 0px;
+    padding-top: 30px;
+}
+.home{
+max-width: 159px;
+min-height: 13px;
+background: #080001;
+border-radius: 5px;
+margin-top: 30px;
+margin-left: auto;
+ margin-right: auto;
+
+
+}
+.guest{
+max-width: 159.54px;
+min-height: 133.06px;
+background: #080001;
+border-radius: 5px;
+margin-top: 30px;
+margin-left: auto;
+ margin-right: auto;
+
+
+}
+#home-points{
+max-width: 120px;
+min-height: 133px;
+margin: 0px auto;
+font-family: cursedTimer;
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+text-align: center;
+/* or 141% */
+
+text-align: center;
+
+color: #F94F6D;
+
+}
+#guest-points{
+    max-width: 120px;
+    min-height: 133px;
+    margin: 0px auto;
+    font-family: cursedTimer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    margin: 0px;
+    
+    text-align: center;
+    
+    color: #F94F6D;
+    }
+    .add-points-btns-home{
+        width: 40px;
+        height:25px;
+        margin-top: 10;
+         color: white;
+         background-color: #1B244A;
+         border: 1px solid white;
+         font-family: cursedTimer;
+
+         }
+         @media screen and (max-width: 400px) {
+            
+            .container{
+                max-width: 80%;
+                min-height: 50vh;
+                font-size: x-large;
+                margin-top: 120px;
+            }
+            .guest{
+               
+                max-width: 100%;
+                min-height: 5vh;
+                
+                
+            }
+
+            .home {          
+                max-width: 100%;
+                min-height: 5vh;
+                
+                
+            }
+            #guest-points{
+                font-size: 50px;
+                
+            }
+            #home-points{
+                font-size: 50px;
+                
+            }
+
+             .add-points-btns-home{
+                width: 25px;
+                height:25px;
+                font-size: 10px;
+                
+            }
+            .newGame{
+                margin-top: 20px;
+                
+            }
+
+         }
