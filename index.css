@@ -115,7 +115,7 @@ color: #F94F6D;
          font-family: cursedTimer;
 
          }
-         @media screen and (max-width: 400px) {
+         @media screen and (max-width: 700px) {
             
             .container{
                 max-width: 80%;
@@ -139,10 +139,14 @@ color: #F94F6D;
             }
             #guest-points{
                 font-size: 50px;
+                margin-bottom: 5px;
+
                 
             }
             #home-points{
                 font-size: 50px;
+                margin-bottom: 5px;
+
                 
             }
 
